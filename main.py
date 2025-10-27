@@ -6,11 +6,63 @@ load_dotenv()
 
 def main():
     print("Hello from langchain-course!")
-    infromation = """Abdel Fattah el-Sisi (born November 19, 1954, Cairo) is Egypt's sixth president and a former field marshal who rose through the army—serving as director of military intelligence and, in August 2012, as defense minister—before leading the removal of President Mohamed Morsi amid mass protests on July 3, 2013; he was first elected president in June 2014, won re-election in 2018, and secured a third term in December 2023 with 89.6% of the vote (official turnout 66.8%), beginning a new six-year term in April 2024 following 2019 constitutional amendments that extended presidential terms and enabled him to run again, potentially through 2030. 
- As president he has promoted large "national projects," notably the 2015 New Suez Canal expansion and a vast new administrative capital east of Cairo, while pursuing subsidy cuts, new taxes/VAT, and waves of currency devaluations tied to IMF programs; in March 2024 Egypt and the IMF expanded their arrangement to $8 billion alongside commitments to a more flexible exchange rate and slower state megaproject spending. 
- To ease a severe foreign-currency crunch, in February–April 2024 his government struck a landmark $35 billion deal with the UAE's ADQ to develop Ras El-Hekma on the Mediterranean—one of the biggest single foreign-investment packages in Egypt's history—and designated it a special free zone. 
- Sisi's decade in power has also drawn persistent criticism from rights groups and some governments for repression of dissent, mass arrests, and constrained political competition—concerns highlighted again in 2025 reporting—although high-profile pardons have occasionally occurred, such as the September 2025 release of British-Egyptian activist Alaa Abd el-Fattah. 
- Supporters credit him with restoring stability after the turmoil of 2011–2013 and with pursuing infrastructure-led growth and security cooperation; critics counter that the military-led economic model, heavy debt, and tighter civic space have magnified economic hardship and limited pluralism."""
+    infromation = """
+    ابن تيمية: سيرته وفكره وتأثيره في الفكر الإسلامي
+
+يُعَدّ تقي الدين أحمد بن عبد الحليم بن عبد السلام بن عبد الله بن أبي القاسم بن محمد بن تيمية الحرّاني الدمشقي (661هـ – 728هـ / 1263م – 1328م) أحد أبرز العلماء والمفكرين في التاريخ الإسلامي الوسيط. اشتهر بذكائه الحاد، وقوة حجته، وسعة علمه، وتأثيره الكبير في مجالات العقيدة والفقه والفكر الإصلاحي.
+
+مولده ونشأته
+
+وُلد ابن تيمية في مدينة حرّان التابعة لمنطقة الجزيرة الفراتية (في تركيا الحالية)، في أسرة علمية مشهورة بالعلم والفقه. اضطر مع أسرته إلى الانتقال إلى دمشق عام 667هـ بعد اجتياح التتار لحرّان، وهناك نشأ في بيئة علمية خصبة، فتعلّم القرآن والحديث والفقه والأصول واللغة العربية، وأبدى نبوغًا مبكرًا جعله محل إعجاب العلماء في صغره.
+
+تعليمه وشيوخه
+
+درس ابن تيمية على يد كبار علماء دمشق في عصره، ومن أبرزهم:
+
+والده عبد الحليم بن تيمية، أحد علماء الحنابلة المعروفين.
+
+شمس الدين المقدسي، في الحديث والفقه.
+
+الكمال بن عبد وابن عبد الدايم في علوم الرواية والحديث.
+
+كما أخذ علوم اللغة والنحو عن ابن مالك صاحب الألفية.
+
+حفظ القرآن صغيرًا، ودرس كتب الفقه الحنبلي ثم توسّع في المذاهب الأخرى، فصار فقيهًا مقارنًا يوازن بين الآراء بالأدلة، لا بالتقليد.
+
+منهجه الفكري
+
+تميّز ابن تيمية بمنهج علمي يقوم على الرجوع إلى الكتاب والسنة، ونبذ التقليد الأعمى للمذاهب. دعا إلى تنقية العقيدة من البدع والخرافات، وإلى العودة إلى منهج السلف الصالح في فهم الدين.
+وكان من أوائل من نادى بفكرة الإصلاح الديني والفكري من داخل الأمة، فتصدى للمظاهر التي رآها انحرافًا عن الدين الصحيح، مثل الغلو في الصالحين، والتوسل غير المشروع، والتصوف المنحرف.
+
+كما تميّز فكره بالعقلانية والانفتاح في الحوار، فكان يوازن بين النقل والعقل، ويرى أن العقل الصريح لا يمكن أن يتعارض مع النقل الصحيح.
+
+مؤلفاته
+
+ترك ابن تيمية تراثًا علميًا ضخمًا، يُقدّر بما يزيد عن 500 مجلد في مختلف العلوم. ومن أشهر مؤلفاته:
+
+مجموع الفتاوى: وهو أضخم أعماله، يضم آراءه في العقيدة والفقه والسياسة والاجتماع.
+
+درء تعارض العقل والنقل: من أهم كتبه في العقيدة والفلسفة، يثبت فيه أن العقل الصريح لا يتناقض مع الوحي.
+
+منهاج السنة النبوية: ردّ فيه على كتاب منهاج الكرامة للعلامة الحلي، ودافع فيه عن منهج أهل السنة والجماعة.
+
+اقتضاء الصراط المستقيم لمخالفة أصحاب الجحيم: بحث فيه مسألة التشبّه بغير المسلمين.
+
+الرد على البكري والرد على المنطقيين والسياسة الشرعية في إصلاح الراعي والرعية، وغيرها من الكتب التي تدل على سعة علمه واهتمامه بالقضايا الفكرية والاجتماعية والسياسية.
+
+مواقفه السياسية والجهادية
+
+لم يكن ابن تيمية عالمًا منعزلًا عن مجتمعه، بل كان ناشطًا سياسيًا ومجاهدًا. وقف موقفًا بطوليًا في وجه التتار، وأفتى بوجوب الجهاد ضدهم رغم إعلانهم الإسلام، لأنهم لم يلتزموا بأحكام الشريعة. وشارك بنفسه في المعارك، منها معركة شقحب سنة 702هـ.
+كما واجه السلطة أحيانًا بسبب مواقفه الجريئة، فسُجن عدة مرات في القاهرة والإسكندرية ودمشق، بسبب آرائه المخالفة للمألوف، خاصة في مسائل العقيدة والفقه.
+
+خصوماته الفكرية
+
+دخل ابن تيمية في مناظرات علمية عديدة مع علماء عصره، خاصة الأشاعرة والصوفية والفلاسفة، وكان يردّ على خصومه بالحجة والبرهان، مما جعله يُحاط أحيانًا بسوء الفهم والخصومة، لكنه ظل متمسكًا بمبادئه حتى وفاته.
+
+وفاته
+
+توفي ابن تيمية في سجن القلعة بدمشق سنة 728هـ بعد أن أمضى سنواته الأخيرة في الحبس بسبب فتاواه الجريئة، خصوصًا المتعلقة بزيارة القبور. وشيّع جنازته عشرات الآلاف من الناس، في مشهد مهيب يعكس مكانته في قلوب العامة والعلماء على حد سواء.
+ """
 
     information_prompt = PromptTemplate(
         input_variables=["information"],
@@ -18,10 +70,19 @@ def main():
         Give me the following information about the following person:
         {information}
         1. What is the person's name?
+        2. What is the person's age?
+        3. What is the person's occupation?
+        4. What is the person's current position?
+        5. What is the person's main achievements?
+        6. What is the person's main challenges?
+        7. What is the person's main goals?
+        8. What is the person's main challenges?
+        9. What is the person's main goals?
+        Respond in Arabic.
         """
     )
 
-    llm = ChatOllama(temperature=0, model="gemma3:270m")
+    llm = ChatOllama(temperature=0, model="gpt-oss:20b")
     chain = information_prompt | llm
     response = chain.invoke({"information": infromation})
     print(response.content)
